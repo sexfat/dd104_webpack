@@ -13,7 +13,7 @@ module.exports = {
     }, // 出口文件
     module: {
         rules: [{
-          test: /\.css$/,
+         test: /\.(sass|scss|css)$/,
           use: [{
               loader: MiniCssExtractPlugin.loader,
               options: {
@@ -22,7 +22,8 @@ module.exports = {
                 publicPath: './dist'
               }
             },
-            'css-loader'
+            'css-loader',
+            'sass-loader'
           ]
         }]
       },                // 處理對應模組

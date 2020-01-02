@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(0, 255, 21);
+
+    h1 {
+        color: rgb(225, 7, 7);
+    }
+
+    nav {
+        ul {
+            list-style: none;
+
+            li {
+                display: inline-block;
+            }
+        }
+    }
+}

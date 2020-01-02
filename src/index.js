@@ -1,5 +1,5 @@
 console.log('ok');
-import "./style.css";
+import "./style.scss";
 import TweenMax from 'gsap';
 
 

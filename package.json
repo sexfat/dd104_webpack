@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "dev": "webpack-dev-server --open",
-    "prod" : "webpack -p"
+    "prod": "webpack -p"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +15,8 @@
     "css-loader": "^3.4.0",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
   },
