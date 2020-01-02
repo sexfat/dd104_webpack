@@ -25,7 +25,20 @@ module.exports = {
             'css-loader',
             'sass-loader'
           ]
-        }]
+        },
+        {
+            test: /\.(js)$/,
+            exclude: /(node_modules)/,
+
+            use: [{
+                loader: 'babel-loader',
+                options: {
+                    presets: ['@babel/preset-env']
+                }
+            }],
+            include: path.resolve(__dirname, 'src'),
+        },
+      ]
       },                // 處理對應模組
     plugins: [
         //html 5 plugin
